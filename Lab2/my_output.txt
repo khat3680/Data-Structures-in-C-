@@ -1,0 +1,35 @@
+Start: Testing solve2
+w =       5         x =       4         
+y =       10.00     z =       2.5000    
+r =       2083.7889           
+
+w =       0         x =       20        
+y =       6.71      z =       70.3300   
+r =       6371451.0513        
+End: Testing solve2
+------------------------------
+Start: Testing rand_int
+
+Testing mode '1':int_rand(2,10,'1') --> 1
+int_rand(5,7,'1') --> 2
+
+Testing mode '2':int_rand(2,10,'2') --> 9
+int_rand(5,7,'2') --> 0
+
+Testing mode 'i':int_rand(2,10,'i') --> 7
+int_rand(5,7,'i') --> 7
+
+Testing mode 'x':int_rand(2,10,'x') --> 3
+int_rand(5,7,'x') --> 6
+
+Testing mode 'L':int_rand(2,10,'L') --> 2
+int_rand(5,7,'L') --> 5
+
+Testing mode 'R':int_rand(2,10,'R') --> 6
+int_rand(5,7,'R') --> 6
+
+Testing mode 'M':int_rand(2,10,'M') --> 182428488
+int_rand(5,7,'M') --> 1616433547
+
+End: Testing rand_int
+------------------------------

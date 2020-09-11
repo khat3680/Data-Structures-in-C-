@@ -1,0 +1,141 @@
+------------------------------
+Start: Testing geometric_series:
+
+Case 0: Invalid value of n:
+Geometric Series (n = -2, a = 1, r = 2):
+Error(geometric_series): Invalid value of n
+
+Case 1: Empty Series:
+Geometric Series (n = 0, a = 1, r = 2):
+Validated: returned poitner is NULL
+
+Case 2: Single Element Series:
+Geometric Series (n = 1, a = 1, r = 2):
+(1)
+Sum = 1
+series[first] = 1, series[last] = 1
+
+Case 3: a = 1
+Geometric Series (n = 5, a = 1, r = 2):
+(1) + (2) + (4) + (8) + (16)
+Sum = 31
+series[first] = 1, series[last] = 16
+
+Case 4: positive values of a and r
+Geometric Series (n = 8, a = 2, r = 3):
+(2) + (6) + (18) + (54) + (162) + (486) + (1458) + (4374)
+Sum = 6560
+series[first] = 2, series[last] = 4374
+
+Case 5: a = 0
+Geometric Series (n = 4, a = 0, r = 6):
+(0) + (0) + (0) + (0)
+Sum = 0
+series[first] = 0, series[last] = 0
+
+Case 6: negative value of a
+Geometric Series (n = 5, a = -5, r = 4):
+(-5) + (-20) + (-80) + (-320) + (-1280)
+Sum = -1705
+series[first] = -5, series[last] = -1280
+
+Case 7: negative value of r
+Geometric Series (n = 5, a = 4, r = -2):
+(4) + (-8) + (16) + (-32) + (64)
+Sum = 44
+series[first] = 4, series[last] = 64
+
+Case 8: r = 0
+Geometric Series (n = 8, a = 7, r = 0):
+(7) + (0) + (0) + (0) + (0) + (0) + (0) + (0)
+Sum = 7
+series[first] = 7, series[last] = 0
+
+End: Testing geometric_series
+------------------------------
+
+------------------------------
+Start: Testing insert_item:
+
+------ Case 1:invalid i ----------
+Before insertion: 
+	[ 1 , 2 , 3 , 4 , 5 ]
+	MaxPtr points at index: 4
+	MaxPtr value = 5
+Inserting value 10 at position 6
+	Error(insert_item): illegal value for i
+	[ 1 , 2 , 3 , 4 , 5 ]
+	MaxPtr points at index: 4
+	MaxPtr value = 5
+------ Case 2:regular insertion ----------
+Before insertion: 
+	[ 1 , 2 , 3 , 4 , 5 ]
+	MaxPtr points at index: 4
+	MaxPtr value = 5
+Inserting value 10 at position 2
+	[ 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 2
+	MaxPtr value = 10
+------ Case 3:Inserting at beginning ----------
+Before insertion: 
+	[ 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 2
+	MaxPtr value = 10
+Inserting value 20 at position 0
+	[ 20 , 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 0
+	MaxPtr value = 20
+------ Case 4:Inserting at end ----------
+Before insertion: 
+	[ 20 , 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 0
+	MaxPtr value = 20
+Inserting value 15 at position 7
+	[ 20 , 1 , 2 , 10 , 3 , 4 , 5 , 15 ]
+	MaxPtr points at index: 0
+	MaxPtr value = 20
+
+End: Testing insert_item
+------------------------------
+
+------------------------------
+Start: Testing add_big_integers:
+
+Case 0: Invalid (void) number:
+Error(add_big_integers): One of the numbers is void
+
+Case 1: Invalid (mismatch size):
+Error(add_big_integers): Size Mismatch
+
+Case 2: Simple non-carry addition:
+ 1234
+ 5432 + 
+------------------
+ 6666
+
+Case 3: Simple carry-over addition:
+ 19
+ 22 + 
+---------------------
+ 41
+
+Case 4: Simple extra digit addition:
+ 91
+ 22 + 
+---------------------
+113
+
+Case 5: Long Addition:
+ 102030405060708090
+ 111111111111111111 + 
+---------------------
+ 213141516171819201
+
+End: Testing add_big_integers
+------------------------------
+
+This Is CP264 Midterm Exam. It Is Taking Place In Week 7.
+The Date Is June 24th, 2020. 
+The Exam Is Not "difficult", But You Need To Calm Down And Focus.
+The Topic Of The Exam Is C Language.
+G O O D L U C K T O Y O U A L L   

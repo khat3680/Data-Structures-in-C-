@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Lab1,org.eclipse.launchbar.core.descriptorType.default\:R1,org.eclipse.launchbar.core.descriptorType.default\:R2,org.eclipse.launchbar.core.descriptorType.default\:Lab2,org.eclipse.launchbar.core.descriptorType.default\:A1,org.eclipse.launchbar.core.descriptorType.default\:R3,org.eclipse.launchbar.core.descriptorType.default\:A2,org.eclipse.launchbar.core.descriptorType.default\:R4,org.eclipse.launchbar.core.descriptorType.default\:Lab4,org.eclipse.launchbar.core.descriptorType.default\:A3,org.eclipse.launchbar.core.descriptorType.default\:Lab5,org.eclipse.launchbar.core.descriptorType.default\:A4,org.eclipse.launchbar.core.descriptorType.default\:R6,org.eclipse.launchbar.core.descriptorType.default\:Lab6,org.eclipse.launchbar.core.descriptorType.default\:R5,org.eclipse.launchbar.core.descriptorType.default\:Lab3,org.eclipse.launchbar.core.descriptorType.default\:R7,org.eclipse.launchbar.core.descriptorType.default\:A6,org.eclipse.launchbar.core.descriptorType.default\:Lab7,org.eclipse.launchbar.core.descriptorType.default\:R9,org.eclipse.launchbar.core.descriptorType.default\:Lab8,org.eclipse.launchbar.core.descriptorType.default\:A7,org.eclipse.launchbar.core.descriptorType.default\:midterm,org.eclipse.launchbar.core.descriptorType.default\:A8,org.eclipse.launchbar.core.descriptorType.default\:R10,org.eclipse.launchbar.core.descriptorType.default\:Lab9,org.eclipse.launchbar.core.descriptorType.default\:validator,org.eclipse.launchbar.core.descriptorType.default\:A9Linkedlist,org.eclipse.launchbar.core.descriptorType.default\:R11,org.eclipse.launchbar.core.descriptorType.default\:Lab10,org.eclipse.launchbar.core.descriptorType.default\:A10,org.eclipse.launchbar.core.descriptorType.default\:R12,org.eclipse.launchbar.core.descriptorType.default\:A5,org.eclipse.launchbar.core.descriptorType.default\:R8,org.eclipse.launchbar.core.descriptorType.default\:A0final_exam
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:A5/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:A6/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lab1/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lab1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Lab5/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lab5/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Lab9/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:R4/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:R4/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:R6/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:R6/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

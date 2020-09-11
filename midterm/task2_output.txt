@@ -1,0 +1,44 @@
+------------------------------
+Start: Testing insert_item:
+
+------ Case 1:invalid i ----------
+Before insertion: 
+	[ 1 , 2 , 3 , 4 , 5 ]
+	MaxPtr points at index: 4
+	MaxPtr value = 5
+Inserting value 10 at position 6
+	Error(insert_item): illegal value for i
+	[ 1 , 2 , 3 , 4 , 5 ]
+	MaxPtr points at index: 4
+	MaxPtr value = 5
+------ Case 2:regular insertion ----------
+Before insertion: 
+	[ 1 , 2 , 3 , 4 , 5 ]
+	MaxPtr points at index: 4
+	MaxPtr value = 5
+Inserting value 10 at position 2
+	[ 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 2
+	MaxPtr value = 10
+------ Case 3:Inserting at beginning ----------
+Before insertion: 
+	[ 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 2
+	MaxPtr value = 10
+Inserting value 20 at position 0
+	[ 20 , 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 0
+	MaxPtr value = 20
+------ Case 4:Inserting at end ----------
+Before insertion: 
+	[ 20 , 1 , 2 , 10 , 3 , 4 , 5 ]
+	MaxPtr points at index: 0
+	MaxPtr value = 20
+Inserting value 15 at position 7
+	[ 20 , 1 , 2 , 10 , 3 , 4 , 5 , 15 ]
+	MaxPtr points at index: 0
+	MaxPtr value = 20
+
+End: Testing insert_item
+------------------------------
+

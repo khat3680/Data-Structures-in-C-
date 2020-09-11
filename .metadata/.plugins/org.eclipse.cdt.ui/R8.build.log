@@ -1,0 +1,15 @@
+13:08:24 **** Incremental Build of configuration Debug for project R8 ****
+make all 
+Building file: ../queue_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"queue_array.d" -MT"queue_array.o" -o "queue_array.o" "../queue_array.c"
+Finished building: ../queue_array.c
+ 
+Building target: R8
+Invoking: MacOS X C Linker
+gcc  -o "R8"  ./R8_test.o ./cqueue.o ./data.o ./process.o ./queue_array.o   
+Finished building target: R8
+ 
+
+13:08:25 Build Finished. 0 errors, 0 warnings. (took 222ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Lab3_output.txt&apos; to &apos;validator&apos;" description="Move &apos;Lab3_output.txt&apos; to &apos;validator&apos;" destination="/validator" element1="/Lab3/Lab3_output.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1590598391405" updateReferences="true"/>
+</session>

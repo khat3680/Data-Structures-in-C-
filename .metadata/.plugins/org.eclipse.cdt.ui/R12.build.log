@@ -1,0 +1,15 @@
+13:08:23 **** Incremental Build of configuration Debug for project R12 ****
+make all 
+Building file: ../graph_components.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph_components.d" -MT"graph_components.o" -o "graph_components.o" "../graph_components.c"
+Finished building: ../graph_components.c
+ 
+Building target: R12
+Invoking: MacOS X C Linker
+gcc  -o "R12"  ./graph.o ./graph_components.o ./test_graph.o   
+Finished building target: R12
+ 
+
+13:08:24 Build Finished. 0 errors, 0 warnings. (took 229ms)
+

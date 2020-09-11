@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.cdt.internal.ui.preferences.CTemplatePreferencePage$CEditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="-189"/>
+		<item key="DIALOG_Y_ORIGIN" value="199"/>
+		<item key="DIALOG_WIDTH" value="660"/>
+		<item key="DIALOG_HEIGHT" value="288"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="vehicles"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="vehicles"/>
+			<item value="vehciles"/>
+			<item value="vechiles"/>
+			<item value="buffer"/>
+			<item value="min_indx"/>
+			<item value="temp"/>
+			<item value="tempy"/>
+			<item value="void destroy_mdata(MData **d) {"/>
+			<item value="14:52:01 **** Build of configuration Debug for project R6 ****"/>
+			<item value="remove_edge_graph"/>
+			<item value="add_edge_graph"/>
+			<item value="-----"/>
+			<item value="&lt;NULL Node&gt;"/>
+			<item value="start"/>
+			<item value="first_1"/>
+		</list>
+		<list key="replacehistory">
+			<item value="stock"/>
+			<item value="minimum_ind"/>
+			<item value="s"/>
+			<item value="temporary"/>
+			<item value="h-&gt;root"/>
+			<item value="curr_1"/>
+			<item value="swaped"/>
+			<item value="list-&gt;size"/>
+			<item value="j"/>
+			<item value="i"/>
+			<item value="tempy"/>
+			<item value="value"/>
+			<item value="temp_array"/>
+			<item value="cQueue"/>
+			<item value="Queue"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="701"/>
+		<item key="DIALOG_Y_ORIGIN" value="154"/>
+		<item key="DIALOG_WIDTH" value="294"/>
+		<item key="DIALOG_HEIGHT" value="408"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="134"/>
+		<item key="DIALOG_Y_ORIGIN" value="302"/>
+	</section>
+</section>

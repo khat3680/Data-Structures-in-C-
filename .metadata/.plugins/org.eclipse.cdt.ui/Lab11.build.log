@@ -1,0 +1,19 @@
+13:08:21 **** Incremental Build of configuration Debug for project Lab11 ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+../graph.c:246:9: warning: unused variable 'j' [-Wunused-variable]
+        int i, j;
+               ^
+1 warning generated.
+Finished building: ../graph.c
+ 
+Building target: Lab11
+Invoking: MacOS X C Linker
+gcc  -o "Lab11"  ./graph.o ./graph_components.o ./test_graph.o   
+Finished building target: Lab11
+ 
+
+13:08:22 Build Finished. 0 errors, 1 warnings. (took 788ms)
+

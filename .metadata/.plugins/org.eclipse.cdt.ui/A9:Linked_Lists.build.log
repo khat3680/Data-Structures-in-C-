@@ -1,0 +1,7 @@
+12:56:20 **** Clean-only build of configuration Debug for project A9:Linked_Lists ****
+make clean 
+makefile:25: *** target pattern contains no `%'.  Stop.
+"make clean" terminated with exit code 2. Build might be incomplete.
+
+12:56:20 Build Failed. 1 errors, 0 warnings. (took 70ms)
+

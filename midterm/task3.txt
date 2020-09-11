@@ -1,0 +1,36 @@
+------------------------------
+Start: Testing add_big_integers:
+
+Case 0: Invalid (void) number:
+Error(add_big_integers): One of the numbers is void
+
+Case 1: Invalid (mismatch size):
+Error(add_big_integers): Size Mismatch
+
+Case 2: Simple non-carry addition:
+ 1234
+ 5432 + 
+------------------
+ 6666
+
+Case 3: Simple carry-over addition:
+ 19
+ 22 + 
+---------------------
+ 41
+
+Case 4: Simple extra digit addition:
+ 91
+ 22 + 
+---------------------
+113
+
+Case 5: Long Addition:
+ 102030405060708090
+ 111111111111111111 + 
+---------------------
+ 213141516171819201
+
+End: Testing add_big_integers
+------------------------------
+

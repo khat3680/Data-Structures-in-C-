@@ -1,0 +1,7 @@
+22:57:43 **** Incremental Build of configuration Debug for project A8:Scheduling ****
+make all 
+makefile:25: *** target pattern contains no `%'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+22:57:43 Build Failed. 1 errors, 0 warnings. (took 71ms)
+

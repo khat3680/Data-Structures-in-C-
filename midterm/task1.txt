@@ -1,0 +1,56 @@
+------------------------------
+Start: Testing geometric_series:
+
+Case 0: Invalid value of n:
+Geometric Series (n = -2, a = 1, r = 2):
+Error(geometric_series): Invalueid valueue of n
+
+Case 1: Empty Series:
+Geometric Series (n = 0, a = 1, r = 2):
+Validated: returned poitner is NULL
+
+Case 2: Single Element Series:
+Geometric Series (n = 1, a = 1, r = 2):
+(1)
+Sum = 1
+series[first] = 1, series[last] = 1
+
+Case 3: a = 1
+Geometric Series (n = 5, a = 1, r = 2):
+(1) + (2) + (4) + (8) + (16)
+Sum = 31
+series[first] = 1, series[last] = 16
+
+Case 4: positive values of a and r
+Geometric Series (n = 8, a = 2, r = 3):
+(2) + (6) + (18) + (54) + (162) + (486) + (1458) + (4374)
+Sum = 6560
+series[first] = 2, series[last] = 4374
+
+Case 5: a = 0
+Geometric Series (n = 4, a = 0, r = 6):
+(0) + (0) + (0) + (0)
+Sum = 0
+series[first] = 0, series[last] = 0
+
+Case 6: negative value of a
+Geometric Series (n = 5, a = -5, r = 4):
+(-5) + (-20) + (-80) + (-320) + (-1280)
+Sum = -1705
+series[first] = -5, series[last] = -1280
+
+Case 7: negative value of r
+Geometric Series (n = 5, a = 4, r = -2):
+(4) + (-8) + (16) + (-32) + (64)
+Sum = 44
+series[first] = 4, series[last] = 64
+
+Case 8: r = 0
+Geometric Series (n = 8, a = 7, r = 0):
+(7) + (0) + (0) + (0) + (0) + (0) + (0) + (0)
+Sum = 7
+series[first] = 7, series[last] = 0
+
+End: Testing geometric_series
+------------------------------
+

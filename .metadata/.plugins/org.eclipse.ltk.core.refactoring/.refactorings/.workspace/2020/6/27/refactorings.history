@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;R8/queue_array.h&apos;" deleteContents="false" description="Delete resource &apos;R8/queue_array.h&apos;" element1="/R8/queue_array.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1593539814207"/>&#x0A;<refactoring comment="Delete resource &apos;R8/queue_array.c&apos;" deleteContents="false" description="Delete resource &apos;R8/queue_array.c&apos;" element1="/R8/queue_array.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1593540435132"/>
+</session>

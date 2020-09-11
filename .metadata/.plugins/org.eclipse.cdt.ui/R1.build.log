@@ -1,0 +1,14 @@
+13:08:23 **** Incremental Build of configuration Debug for project R1 ****
+make all 
+Building file: ../R2_test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"R2_test.d" -MT"R2_test.o" -o "R2_test.o" "../R2_test.c"
+../R2_test.c:2:11: fatal error: 'R2.h' file not found
+# include "R2.h"
+          ^~~~~~
+1 error generated.
+make: *** [R2_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:08:23 Build Failed. 2 errors, 0 warnings. (took 123ms)
+

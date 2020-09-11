@@ -1,0 +1,7 @@
+13:25:27 **** Incremental Build of configuration Debug for project A9:Linkedlist ****
+make all 
+makefile:25: *** target pattern contains no `%'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:25:27 Build Failed. 1 errors, 0 warnings. (took 72ms)
+
